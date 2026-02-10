@@ -48,27 +48,42 @@ The gap between ambition and adoption isn't about capability or intent. It's str
 
 ---
 
-## Slide 3 — The Execution Gap at Portfolio Scale
+## Slide 3 — The Portfolio Execution Challenge
 
 [ON SLIDE]
-Strategy exists. Execution capacity at scale does not.
+EQT is all in on AI. The question is no longer whether — it's how to deploy it across 273 companies.
 
-[VISUAL — Two-column comparison]
+[ON SLIDE]
+Portfolio companies face three unanswered questions:
 
-| What EQT Has Built | What's Typically Missing at Portfolio Level |
-|---|---|
-| AI thesis and mandate | Internal AI engineering capability |
-| Motherbrain for prototyping | A mechanism to take prototypes to production |
-| EQT Digital for strategic guidance | Hands-on execution that ships in weeks |
-| Perficient for digital transformation | Fast, focused AI-specific delivery |
-| Foundation model partnerships | People who turn tools into working systems |
+**Where** — which workflow will produce the fastest, most measurable return?
+**How** — who executes it, and how fast can it reach production?
+**What to measure** — what's the baseline, and what proves it worked?
+
+[ON SLIDE]
+Without answers to these three questions, portfolio companies hit the same five barriers:
+
+1. **No clear starting point** — budget exists, but no method to identify the highest-ROI workflow
+2. **Scope too broad** — "AI transformation" instead of one workflow, one metric
+3. **No baseline** — without a before measurement, there's no provable after
+4. **Vendor fatigue** — 6-12 month engagements that produce strategies, not systems
+5. **Internal capacity** — IT teams built for maintenance, not AI-native delivery at speed
+
+[FOOTNOTE]
+40%+ of agentic AI projects will be canceled by 2027 — Gartner | Only 2% of organisations have deployed AI agents at full scale — Capgemini (April 2025)
 
 [SPEAKER NOTES]
-"You've built an impressive AI infrastructure at the firm level — Motherbrain, EQT Digital, the Perficient acquisition, partnerships with OpenAI and Anthropic. The strategy layer is strong.
+"EQT has made its position clear — AI is existential, and the investment at the firm level reflects that. This isn't about whether AI matters. That question is settled.
 
-The question is: how does that translate into AI systems running inside the actual workflows of your portfolio companies? Each company has different systems, different levels of digital maturity, different operational priorities. But the structural barriers to getting AI into production are remarkably consistent.
+The question now is: how does that conviction translate into production AI systems running inside the workflows of your portfolio companies? And when we look at what those companies face when they try, the same three questions come up every time.
 
-The bottleneck across most enterprises isn't ideas or technology. It's the last mile — getting an AI system into a real workflow, used by real people, improving a real operating metric. At portfolio scale, that challenge multiplies."
+Where do we start? Most companies have a mandate or budget, but no method to identify which specific workflow will produce the fastest, most measurable return. So the initiative starts too broad.
+
+How do we execute? Even when they pick a target, the internal teams are built for maintenance, not for standing up an AI system in weeks. And external vendors are quoting 6 to 12 months and delivering strategy documents, not production systems.
+
+What do we measure? This is the one that kills most projects. Nobody established a baseline before the work started, so when something gets built, there's no before-and-after. The CFO can't point to a number that moved. Without that, there's no case for expanding to the next workflow.
+
+These barriers are structural. They repeat across every mid-market enterprise, regardless of sector. And they're solvable — but they require a specific execution model designed around answering those three questions. That's what we do."
 
 ---
 
@@ -243,18 +258,34 @@ Phase model designed for PE risk appetite.
 | Scale | Cross-portfolio deployment | Framework pricing | Ongoing |
 
 [ON SLIDE]
-Illustrative fund-level math:
-10 companies x 3% EBITDA improvement x EUR 50M avg EBITDA x 15x exit multiple
-= EUR 225M incremental value creation
-Cost: <EUR 2M | Return: >100x
+We measure in operating metrics, not aspirational percentages.
+
+[VISUAL — Impact patterns table]
+
+| What We Target | Typical Before State | Typical After State |
+|---|---|---|
+| Manual recurring processes | 1-2 days of team time per cycle | Under 1 hour per cycle |
+| Document processing throughput | Hours per document, high error rate | Minutes per document, consistent output |
+| Feature delivery on legacy systems | Months-long backlogs, talent scarcity | Weeks to production, existing codebase |
+| Revenue-critical delivery deadlines | Missed timelines, customer churn risk | Deadlines met, accounts retained |
+
+[ON SLIDE]
+One workflow pays for itself. What follows is expansion — not a second pitch.
+
+Typical pattern: initial engagement surfaces 4-5 additional workflows at the same company.
+Payback on first engagement: 2-4 months.
 
 [FOOTNOTE]
-Illustrative. Depends on portfolio company size, sector, and hold period. The ratio of cost-to-test vs. potential value creation is deliberately asymmetric.
+Based on delivery patterns across engagements. Actual impact depends on workflow complexity, team size, and data readiness.
 
 [SPEAKER NOTES]
-"The phase model is designed for how PE evaluates commitments. Phase 1 is one portfolio company, one workflow, $50 to $150K, 3 to 6 weeks. That's a rounding error on a portfolio company's OpEx. If it works, Phase 2 validates across 2-3 companies in different sectors. If that works, Phase 3 is cross-portfolio deployment on a framework basis.
+"I'm not going to show you a slide that multiplies assumptions across 273 companies. You can do that math better than I can — you know your portfolio.
 
-The fund-level math — and I want to be clear these are illustrative numbers — but assume 10 companies with one engagement each, a conservative 3% EBITDA improvement per company, average EBITDA of EUR 50M, and a 15x exit multiple. That's EUR 225M of incremental value creation. Total cost to get there is under EUR 2M. The ratio of cost-to-test versus potential value creation is deliberately asymmetric. That's the point."
+What I can show you is what happens at the individual company level when we execute. A finance team that was spending two days every month on manual reconciliation now spends less than an hour. A feature backlog on a legacy system that internal teams estimated at nine months gets compressed to weeks — because the alternative was losing their largest customer.
+
+What's consistent across every engagement is the pattern afterward: one workflow proves the model, and that first engagement typically surfaces four or five additional workflows the company didn't realize were addressable. The compounding happens organically — we don't need to pitch a second engagement. The company comes to us.
+
+The cost to prove this inside one portfolio company is $50 to $150K and 5-6 weeks. The payback on that first engagement is typically 2-4 months. After that, the question you'll be asking isn't whether this works — it's how many companies to deploy it across."
 
 ---
 
