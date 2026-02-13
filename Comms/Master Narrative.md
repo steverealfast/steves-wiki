@@ -1,6 +1,6 @@
 # realfast — Master Narrative
 
-*v0.1 — February 13, 2025. Living document.*
+*v0.2 — February 2026. Living document.*
 
 ---
 
@@ -53,6 +53,8 @@ The model that sustained IT services — large contracts, long durations, infreq
 
 3. **The organizational structure doesn't flex.** Sales, legal, compliance, pre-sales, security assessment — all built for high-value, low-frequency deals. The cost of processing a $300K deal through these functions approaches the cost of processing a $30M deal. Friction per deal is roughly constant regardless of deal size.
 
+This is not hypothetical. In a recent conversation with a sales engineer at a major cloud data platform, the dynamic was described plainly: their largest enterprise client now regularly requests $150K-$300K AI projects alongside existing multi-million dollar contracts. The firm cannot profitably serve them — requirements gathering, configuration, testing, and deployment are all built for $3M-$30M engagements. But the client implies a larger deal will follow, so refusing is not an option. The firm is caught between a cost structure it cannot flex and a market it cannot ignore.
+
 The result: firms must serve deals ranging from $30K to $300M, but their cost structure makes them unprofitable below a certain threshold. Most do not know what that threshold is.
 
 ---
@@ -71,6 +73,8 @@ Source: APQC benchmarks; Accenture's SG&A alone runs ~17% of revenue before deli
 
 A firm that minimizes friction per unit of revenue can profitably serve a $30K deal and a $30M deal. A firm that has only optimized delivery speed cannot — because the overhead per deal stays constant regardless of size.
 
+The implication is a fundamental reorientation: optimize for deal velocity, not deal size. The economics of the old model — optimize delivery cost on a large, stable contract — do not transfer to a world where deal frequency is rising and deal size is falling. The firm that can move a $30K deal through its full pipeline at the same speed and margin as a $3M deal has a structural advantage that compounds with every deal closed.
+
 ### 2.2 Why AI Tools Don't Fix This
 
 The standard response: give engineers AI tools. Cursor, Copilot, Devin. Measure developer productivity. Announce AI transformation.
@@ -88,6 +92,8 @@ Making one stage faster while every other stage stays manual does not reduce fri
 ## Part 3: What Replaces the Current Model
 
 ### 3.1 End-to-End AI Infrastructure
+
+There are three ways a company can deploy AI: AI in the product it sells, AI for building the product, and AI to run the company. Most firms are focused on the first two. Very few are addressing the third — and that is where the structural economics change.
 
 If friction per unit of revenue is the metric, then AI at one stage is not the solution. AI across the entire pipeline is.
 
@@ -111,6 +117,8 @@ Consultants who previously required dedicated developers can now deliver indepen
 Every project completed makes the next one faster — domain knowledge compounds in Exocortex rather than dissipating when the project team disbands.
 
 The claim we are testing: realfast can profitably deliver at price points where traditional IT services firms cannot operate. Not because we charge less. Because our friction per unit of revenue is structurally lower.
+
+The proof must hold at multiple price points. A $30K engagement delivered at 70% margin. A $3M engagement delivered at 70% margin. Same operating model, same infrastructure, same economics. If the model only works at one end of the spectrum, it is an optimization. If it works across the full range, it is a structural shift.
 
 ### 3.3 Why This Cannot Be Easily Replicated
 

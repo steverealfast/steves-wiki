@@ -1,6 +1,6 @@
 # realfast — EQT Narrative
 
-*v4 — February 2026. Internal strategy guide.*
+*v4.1 — February 2026. Internal strategy guide.*
 
 ---
 
@@ -16,9 +16,9 @@ The metric that governs whether a firm survives this is what we call friction pe
 
 ## What realfast Has Built
 
-This is the industrialisation of the software services industry. The analogy is precise: before the assembly line, making individual craftsmen faster — better tools, better training — did not transform the economics of manufacturing. What changed everything was restructuring how work flowed through the entire production process. The resistance to that shift was identical to what we see today.
+This is the industrialisation of the software services industry. The analogy is precise: before the assembly line, making individual craftsmen faster — better tools, better training — did not transform the economics of manufacturing. What changed everything was restructuring how work flowed through the entire production process. The resistance to that shift was identical to what we see today. In private equity terms: think of inventory turns of people. The assembly line did not eliminate craftsmen. It changed how many units of output each craftsman produced per unit of time. That is the transformation we are executing.
 
-The pattern is not limited to IT services firms. It is playing out across every industry. Enterprises in healthcare, financial services, industrials, and professional services are all buying AI tools and seeing the same result: one stage of the pipeline gets faster, the rest stays manual. The bottleneck moves. The organization does not get faster. Giving engineers Copilot is the equivalent of giving craftsmen better hammers. It helps the individual. It does not change the economics of the firm.
+The pattern is not limited to IT services firms. It is playing out across every industry. Enterprises in healthcare, financial services, industrials, and professional services are all buying AI tools and seeing the same result: one stage of the pipeline gets faster, the rest stays manual. The bottleneck moves. The organization does not get faster. There are three ways a company deploys AI: AI in the product it sells, AI for building the product, and AI to run the company. The industry is fixated on the first two. The third is where the structural economics change — and it is the one almost nobody has built. Giving engineers Copilot is the equivalent of giving craftsmen better hammers. It helps the individual. It does not change the economics of the firm.
 
 realfast is the IT services firm that solved this problem for itself first — and now delivers that capability to others. AI is not a tool our people use. It is the infrastructure the business runs on. Every function — pre-sales, delivery, operations, recruitment — operates through Exocortex, an AI operating system that spans the full pipeline from first conversation to delivered outcome.
 
@@ -32,6 +32,8 @@ This produces structural cost elimination, not marginal efficiency gains. A cons
 But the part that should change how you think about this is the compounding effect. Every project realfast completes makes the next one faster. Domain knowledge does not walk out the door when the project team disbands. It stays in the system. Patterns, edge cases, client-specific context — all of it accumulates. A competitor who starts building this today is not just behind on technology. They are behind on every engagement we have already run. That gap widens with every project delivered. In investment terms: this is an asset that appreciates with use.
 
 The unit economics implication is direct. realfast can profitably deliver at price points where traditional IT services firms cannot operate. Not because we undercut. Because our friction per unit of revenue is structurally lower. We can serve a $50K engagement and a $1M engagement with the same operating model. Most firms cannot serve anything below their minimum viable deal size without losing money. They do not even know what that number is.
+
+This reframes the operating objective: optimize for deal velocity, not deal size. When friction per unit of revenue is low enough, the size of the deal becomes irrelevant. What matters is how fast deals move through the pipeline — from conversation to delivered outcome to cash collected. The proof is in the margins: a $30K engagement at 70% margin and a $1M engagement at 70% margin, delivered through the same operating model. If the model only works at one price point, it is an optimization. Working across the full range is a structural shift.
 
 Three barriers prevent replication:
 
@@ -76,7 +78,9 @@ We are asking for one engagement at one portfolio company. The ideal starting po
 
 We are not asking to run training programs, conduct AI maturity assessments, or embed in existing workflows as observers. We will own delivery end-to-end. Fixed scope, milestone-based. If the work does not move the metric, we do not invoice.
 
-This is not a pilot. It is a proof event. The cost to EQT of running this test is trivial relative to the portfolio. The information value — seeing whether an AI-native operating model produces structurally different outcomes on real work — is significant.
+This is not a pilot. It is a proof event. The proof format is not a case study — it is a timeline. Day-by-day, from first conversation to signed scope to delivered outcome to invoiced payment. That is what demonstrates low friction. Not a deck about what we did. A visible record of how fast we moved.
+
+The cost to EQT of running this test is trivial relative to the portfolio. The information value — seeing whether an AI-native operating model produces structurally different outcomes on real work — is significant.
 
 ---
 
@@ -89,6 +93,8 @@ If we do our job, the delta between what we deliver and what any other vendor ca
 That is the outcome for the portfolio company. The outcome for EQT is larger: a proven AI execution capability that can be deployed across the portfolio as a value creation lever. Not a theory. Not a slide in a fundraising deck. A demonstrated operating model with measured results from inside your own portfolio.
 
 The portfolio-wide expansion is not something we pitch today. It is something that becomes obvious after the first engagement delivers.
+
+There is an additional angle for the Ventures portfolio. Early-stage companies have not yet calcified into traditional operating models. Embedding Exocortex now — before they reach $100M ARR — means the AI infrastructure learns the company as it grows. By the time the company scales, Exocortex has accumulated years of institutional knowledge. The cost of embedding at the early stage is trivial. The cost of retrofitting it later is the same transformation problem every mature firm is struggling with today.
 
 ---
 
