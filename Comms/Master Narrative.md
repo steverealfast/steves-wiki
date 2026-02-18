@@ -65,6 +65,12 @@ The entire IT outsourcing model is labour arbitrage — hire in India at $15/hou
 
 The hiring data tells the same story. India's Big Four IT firms — TCS, Infosys, Wipro, HCL — historically hired 10,000+ people per quarter. TCS cut 11,000 employees in a single quarter. HCL remained flat. Revenue growth across the sector dropped to low single digits, down from the historical 15-20% annual growth that justified the hiring machine.
 
+The repricing is not limited to labour arbitrage. The vertical software layer that sits above IT services — the platforms these firms and their clients depend on — is being compressed simultaneously. Nearly $1 trillion has been wiped from software and services stocks. FactSet dropped from a $20B peak to under $8B. S&P Global lost 30% in weeks. Thomson Reuters shed almost half its market cap in a year. The S&P 500 Software & Services Index — 140 companies — fell 20% year to date. The moats that justified premium multiples on these businesses — proprietary interfaces, encoded workflows, data accessibility layers — are dissolving as LLMs commoditize the scaffolding that vertical software spent decades building. The market is not pricing in a revenue collapse. It is pricing in the end of the premium multiple.
+
+The entire middle layer — labour arbitrage firms and the vertical software they depend on — is being squeezed from both directions.
+
+The adoption curve confirms the speed. Gartner projects that 40% of enterprise applications will feature task-specific AI agents by end of 2026 — up from less than 5% in 2025. This is not a gradual transition. It is an 8x increase in a single year. The enterprises buying IT services are simultaneously embedding AI agents into their own application stacks, which means the demand side of the equation is restructuring at the same pace as the supply side. Firms that cannot deliver against an AI-native enterprise will lose relevance before their contracts expire.
+
 The revenue will not fall off a cliff. Multi-year enterprise contracts with high switching costs protect the near-term top line. But as contracts come up for renewal, headcount requirements will be renegotiated downward. The trajectory is eight to ten quarters of consensus estimates being trimmed by two to three percent each cycle — a slow bleed, not a sudden collapse. The firms know this. Their stock prices know this. Their hiring plans know this.
 
 What the market is telling us: the labour arbitrage model is not facing disruption in five years. It is being repriced today.
@@ -96,6 +102,8 @@ This addresses one node in a multi-node pipeline. Grant the most optimistic clai
 Making one stage faster while every other stage stays manual does not reduce friction. It moves the bottleneck from engineering to legal, from legal to compliance, from compliance to pre-sales. The firm does not get faster. Individual engineers get faster. The distinction matters.
 
 The question is not whether AI tools improve developer productivity. Assume they do. The question is whether developer productivity was ever the binding constraint on friction per unit of revenue. In most IT services engagements, it was not. Engineering represents 50-65% of delivery cost. The remaining 35-50% — selling, scoping, legal, compliance, staffing, project management, knowledge transfer — is untouched by a better code editor. The firms announcing AI transformation by giving engineers Copilot are optimizing the minority of their cost structure while ignoring the majority.
+
+This pattern is already visible on the software side. Vertical SaaS companies that spent years encoding domain-specific business logic — legal research workflows, financial valuation models, compliance rule engines — are watching that logic get replicated in weeks. What previously required teams of engineers who understood both the code and the domain now collapses into a set of instructions that any domain expert can write and any foundation model can execute. The engineering scaffolding that took a decade to build is becoming a commodity capability baked into the models themselves. If the software layer above IT services is experiencing this compression, the services layer below it faces the same structural exposure — but with even less defensibility, because services firms do not own the software moats that might slow the transition.
 
 There is a deeper problem. Every firm has access to the same AI tools. Copilot, Cursor, Claude, GPT — these are commodity ingredients available to any company with a subscription. The firms announcing AI transformation are all cooking with identical inputs. None of them are differentiated by the tools they procure. The differentiation — if it exists at all — lies in the proprietary operational intelligence that directs those tools: which workflows to run, which sequences actually work, which client-specific context changes the outcome. The tools are table stakes. The institutional knowledge that makes them effective is not available for purchase.
 
@@ -138,6 +146,8 @@ If friction per unit of revenue is the metric, then AI at one stage is not the s
 Sales must move faster. Pre-sales must scope in days, not weeks. Legal must review contracts in hours. Compliance must clear in a single pass. Delivery must execute with fewer roles and less coordination overhead. Knowledge must transfer automatically, not through meetings.
 
 No IT services firm is structured to build this. Their teams are organized by function, not by flow. Their tooling is procured per function. There is no connective tissue.
+
+The workforce implications compound the urgency. Gartner estimates that by 2029, at least half of all knowledge workers will need new skills for working with, governing, or creating AI agents. The talent model that IT services firms depend on — hiring generalist engineers in volume and billing them by the hour — is misaligned with a world where the valuable skill is directing AI agents, not performing the tasks those agents are replacing. The firms that retool their workforce around agent orchestration rather than manual execution will compound the advantage. The firms that do not will be staffing projects with people whose skills are depreciating faster than their contracts can be renewed.
 
 ### 3.2.1 Why Horizontal Beats Vertical
 
@@ -298,3 +308,5 @@ It cannot, for six reasons.
 - Accenture IR — SG&A, acquisition volume, $3B AI investment
 - Public market data — Indian IT stock price reactions, Nifty IT index, ADR movements
 - Industry hiring data — Big Four quarterly headcount filings
+- Nicolas Bustamante — "10 Years Building Vertical Software: My Perspective on the Selloff" (2026); vertical SaaS moat analysis, software/services market selloff data
+- Gartner — "40% of Enterprise Apps Will Feature Task-Specific AI Agents by 2026" (August 2025); enterprise AI agent adoption projections, knowledge worker skill shift forecasts
