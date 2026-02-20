@@ -14,27 +14,27 @@
 |--------|-------|
 | Active FTEs | 25 (excl. system accounts) |
 | Cost Rate Range | $30–$120/hr (4 tiers) |
-| Total Estimated Period Spend | $104,160 |
-| Revenue-Generating (Client) | $20,299 (19.5%) |
-| Presales (Cost of Sales) | $33,375 (32.0%) |
-| Internal (Absorbed) | $50,487 (48.5%) |
+| Total Estimated Period Spend | $103,440 |
+| Revenue-Generating (Client) | $20,122 (19.5%) |
+| Presales (Cost of Sales) | $32,333 (31.3%) |
+| Internal (Absorbed) | $50,985 (49.3%) |
 
-**The bottom line:** For every dollar spent on FTEs, 19.5 cents produced client revenue, 32 cents went to presales pipeline investment, and 48.5 cents was absorbed internal cost. Nearly half the FTE spend goes to building internal platforms — $50,487/period ($1.3M annualized). Only 5 FTEs have revenue utilization above 20%. The $80/hr tier (9 people, $54,800) is the highest-cost segment with the lowest average output per dollar. The single largest internal cost center is the manazer platform at $21,066/period across 7 contributors. Project tagging is clean — every FTE activity maps to a project with zero nil-project records.
+**The bottom line:** For every dollar spent on FTEs, 19.5 cents produced client revenue, 31 cents went to presales pipeline investment, and 49 cents was absorbed internal cost. Nearly half the FTE spend goes to building internal platforms — $50,985/period ($1.3M annualized). Only 5 FTEs have revenue utilization above 20%. The $80/hr tier (9 people, $54,800) is the highest-cost segment with the lowest average output per dollar. The single largest internal cost center is the manazer platform at $21,066/period across 7 contributors. Project tagging is clean — every FTE activity maps to a project with zero nil-project records.
 
 ### FTE vs Contractor Comparison
 
 | Metric | Contractors | FTEs | Combined |
 |--------|------------|------|----------|
 | Headcount | 9 | 25 | 34 |
-| Total Est. Spend | $27,600 | $104,160 | $131,760 |
-| Avg Cost/Person | $3,067 | $4,166 | $3,875 |
-| Client Revenue % | 26.6% | 19.5% | 21.0% |
-| Presales % | 49.6% | 32.0% | 35.7% |
-| Internal % | 16.8% | 48.5% | 41.8% |
-| Zero Output % | 7.0% | 0% | 1.5% |
-| Avg Activities/Person | 363 | 131 | 192 |
+| Total Est. Spend | $27,360 | $103,440 | $130,800 |
+| Avg Cost/Person | $3,040 | $4,138 | $3,847 |
+| Client Revenue % | 29.4% | 19.5% | 21.5% |
+| Presales % | 53.4% | 31.3% | 35.9% |
+| Internal % | 17.2% | 49.3% | 42.6% |
+| Zero Output % | 0% | 0% | 0% |
+| Avg Activities/Person | 370 | 130 | 193 |
 
-**The structural pattern:** Contractors are presales-heavy (49.6%) while FTEs are internal-heavy (48.5%). FTEs build the platform; contractors build the pipeline. The question is whether this is by design or by drift.
+**The structural pattern:** Contractors are presales-heavy (53.4%) while FTEs are internal-heavy (49.3%). FTEs build the platform; contractors build the pipeline. The question is whether this is by design or by drift.
 
 ---
 
@@ -59,7 +59,7 @@
 | **Presales (Cost of Sales)** | Investment in future revenue | All starter-pack-\*, starter-packs, Pre-Sales-Delivery, service-cloud-starter-pack-optimization |
 | **Internal (Absorbed)** | Operational cost | manazer, exo-sf-core-agent, exo-code-server, exo-cli, exo-code-otel-service, exo-agent-builder, exo-help, harvester, New-Website, content-branding |
 
-**FTE Identification:** The 9 contractors identified in the Contractor Productivity Analysis (Prabhat Ranjan, Rakesh Poddar, Bharat, Ganesh Hegde, Shantanu, Nikhil Galagali, Paharlaya Basnet, Manas, Animesh) are excluded. System accounts (It-admin, Exo) excluded from the main analysis and noted separately.
+**FTE Identification:** The 9 contractors identified in the Contractor Productivity Analysis (Prabhat Ranjan, Rakesh Poddar, Bharat, Ganesh Hegde, Shantanu, Nikhil Galagali, Paharlaya Basnet, Manas, Das Animesh) are excluded. System accounts (It-admin, Exo) excluded from the main analysis and noted separately.
 
 ---
 
@@ -77,7 +77,7 @@
 | 6 | Saurav Shah | $50 | $5,600 | 359 | 14 | 25.1% | $199.20 |
 | 7 | Harsh | $50 | $2,000 | 16 | 5 | 25.0% | $200.00 |
 | 8 | Geetha | $80 | $8,960 | 212 | 14 | 24.5% | $326.15 |
-| 9 | Das Animesh | $30 | $1,440 | 47 | 6 | 23.4% | $128.18 |
+| 9 | Animesh | $30 | $720 | 9 | 3 | 22.2% | $135.14 |
 | 10 | Sidu | $80 | $8,320 | 133 | 13 | 21.1% | $379.71 |
 | 11 | Megha Bc | $30 | $3,120 | 334 | 13 | 13.2% | $227.27 |
 | 12 | Jewel James | $80 | $10,240 | 215 | 16 | 12.6% | $636.51 |
@@ -94,7 +94,7 @@
 | 23 | Sumanth | $50 | $1,600 | 9 | 4 | 0.0% | N/A |
 | 24 | Piyush Sinha | $30 | $240 | 2 | 1 | 0.0% | N/A |
 | 25 | Jeetal Shah | $80 | $640 | 2 | 1 | 0.0% | N/A |
-| | **TOTAL** | | **$104,160** | **3,285** | | | |
+| | **TOTAL** | | **$103,440** | **3,247** | | | |
 
 ---
 
@@ -116,7 +116,7 @@
 | Harsh | $2,000 | $500 (25%) | $0 | $1,500 (75%) |
 | Srini | $7,040 | $464 (7%) | $310 (4%) | $6,266 (89%) |
 | Megha Bc | $3,120 | $411 (13%) | $2,709 (87%) | $0 |
-| Das Animesh | $1,440 | $337 (23%) | $1,042 (72%) | $61 (4%) |
+| Animesh | $720 | $160 (22%) | $0 | $560 (78%) |
 | Priyanshu Gaur | $6,000 | $64 (1%) | $3,191 (53%) | $2,745 (46%) |
 | Aniket | $5,200 | $25 (<1%) | $690 (13%) | $4,485 (86%) |
 | Paulomi | $7,680 | $0 | $7,680 (100%) | $0 |
@@ -129,7 +129,7 @@
 | Sumanth | $1,600 | $0 | $0 | $1,600 (100%) |
 | Piyush Sinha | $240 | $0 | $0 | $240 (100%) |
 | Jeetal Shah | $640 | $0 | $0 | $640 (100%) |
-| **TOTAL** | **$104,160** | **$20,299 (19%)** | **$33,375 (32%)** | **$50,487 (48%)** |
+| **TOTAL** | **$103,440** | **$20,122 (19%)** | **$32,333 (31%)** | **$50,985 (49%)** |
 
 ---
 
@@ -142,8 +142,8 @@
 | Tier 1 | $120/hr | 1 | $7,680 | 43 | 29 | $0 | 0% | $7,680 | $0 |
 | Tier 2 | $80/hr | 9 | $54,800 | 88 | 14 | $10,935 | 20% | $13,722 | $30,143 |
 | Tier 3 | $50/hr | 7 | $30,400 | 216 | 58 | $5,592 | 18% | $7,907 | $16,901 |
-| Tier 4 | $30/hr | 8 | $11,280 | 206 | 78 | $3,772 | 33% | $4,066 | $3,443 |
-| **Total** | | **25** | **$104,160** | **131** | **38** | **$20,299** | **19%** | **$33,375** | **$50,487** |
+| Tier 4 | $30/hr | 8 | $10,560 | 201 | 76 | $3,595 | 34% | $3,024 | $3,942 |
+| **Total** | | **25** | **$103,440** | **130** | **37** | **$20,122** | **19%** | **$32,333** | **$50,985** |
 
 **The inversion problem persists:** The lowest-cost tier ($30/hr) has the highest client revenue rate (33%) AND the highest average output (206 activities, 78 commits per person). The $80/hr tier spends 55% on internal ($30,143) — more internal $ than the other 3 tiers combined ($20,344). The $120/hr tier is 100% presales.
 
@@ -691,11 +691,11 @@ Isaac outperforms every contractor. The FTE average is dragged down by high-rate
 
 ## 8. Low-Activity FTE Summary
 
-**FTEs with <50 activities.** These 10 FTEs represent $21,360 (20.5%) of total FTE spend.
+**FTEs with <50 activities.** These 10 FTEs represent $20,640 (20.0%) of total FTE spend.
 
 | FTE | Rate | Activities | Active Days | Client $ | Presales $ | Internal $ | Est. Cost | Key Project |
 |---|---:|---:|---:|---:|---:|---:|---:|---|
-| Das Animesh | $30 | 47 | 6 | $337 (23%) | $1,042 (72%) | $61 (4%) | $1,440 | Pre-Sales-Delivery |
+| Animesh | $30 | 9 | 3 | $160 (22%) | $0 | $560 (78%) | $720 | manazer + Boardroom |
 | Paulomi | $120 | 43 | 8 | $0 | $7,680 (100%) | $0 | $7,680 | Pre-Sales-Delivery |
 | Kaathyayani | $30 | 19 | 8 | $505 (26%) | $1,415 (74%) | $0 | $1,920 | starter-pack-service-cloud + TASC |
 | Harsh | $50 | 16 | 5 | $500 (25%) | $0 | $1,500 (75%) | $2,000 | manazer + Boardroom |
@@ -710,7 +710,7 @@ Isaac outperforms every contractor. The FTE average is dragged down by high-rate
 - **Paulomi** ($120/hr): 100% Pre-Sales-Delivery — pure presales investment, not unaccounted
 - **Rishi** ($80/hr): 100% Boardroom (Client) — all 4 activities are revenue work
 - **Kaathyayani** ($30/hr): 74% presales, 26% client — a presales PM contributing to revenue (TASC)
-- **Das Animesh** ($30/hr): 72% presales, 23% client — mostly Pre-Sales-Delivery with some client work
+- **Animesh** ($30/hr): 78% internal, 22% client — mostly manazer with Boardroom client work
 - **Rajnish, Suraj, Piyush Sinha, Jeetal Shah**: 100% internal with minimal output — management roles or effectively absent
 
 ---
@@ -739,17 +739,17 @@ Isaac outperforms every contractor. The FTE average is dragged down by high-rate
 | Rajnish | FTE | $80 | 5 | $960 |
 | Saurabh | FTE | $30 | 3 | $71 |
 | Piyush Sinha | FTE | $30 | 2 | $240 |
-| Das Animesh | FTE | $30 | 2 | $61 |
+| Animesh | FTE | $30 | 7 | $560 |
 | Jeetal Shah | FTE | $80 | 2 | $640 |
-| **TOTAL** | | | **663** | **~$26,750** |
+| **TOTAL** | | | **668** | **~$27,250** |
 
-**$26,750/period ($695K annualized)** on manazer platform alone, across 18 contributors.
+**$27,250/period ($708K annualized)** on manazer platform alone, across 18 contributors.
 
 ### All Internal Platforms
 
 | Platform | Contributors | Est. Cost |
 |----------|-------------|---:|
-| manazer | 18 | ~$26,750 |
+| manazer | 18 | ~$27,250 |
 | exo-sf-core-agent | 5 | ~$8,573 |
 | exo-code-server | 8 | ~$5,800 |
 | exo-agent-builder | 5 | ~$3,100 |
@@ -758,9 +758,9 @@ Isaac outperforms every contractor. The FTE average is dragged down by high-rate
 | harvester | 2 | ~$1,400 |
 | exo-cli | 2 | ~$800 |
 | content-branding | 2 | ~$600 |
-| **Total Internal** | | **~$53,200** |
+| **Total Internal** | | **~$53,700** |
 
-**$53,200/period ($1.38M annualized)** across all internal platforms. This is 40% of combined FTE + contractor spend ($131,760).
+**$53,700/period ($1.40M annualized)** across all internal platforms. This is 41% of combined FTE + contractor spend ($130,800).
 
 ---
 
@@ -770,7 +770,7 @@ Isaac outperforms every contractor. The FTE average is dragged down by high-rate
 
 **A. Presales Pipeline ROI Review**
 
-FTEs invest $33,375/period ($867K annualized) in presales. Key presales investors:
+FTEs invest $32,333/period ($840K annualized) in presales. Key presales investors:
 
 | FTE | Presales $ | Presales % | Key Projects |
 |---|---:|---:|---|
@@ -781,7 +781,7 @@ FTEs invest $33,375/period ($867K annualized) in presales. Key presales investor
 | Jewel James | $2,907 | 28% | 3 starter-pack projects |
 | Megha Bc | $2,709 | 87% | 2 starter-pack projects |
 
-Combined with contractor presales ($13,698), total presales investment is **$47,073/period ($1.22M annualized)**.
+Combined with contractor presales ($14,619), total presales investment is **$46,952/period ($1.22M annualized)**.
 
 **Action:** Map presales projects to pipeline value. Which starter-packs have active prospects? What is the expected revenue conversion? $1.22M/year of presales investment requires at minimum $2-3M in expected pipeline to justify.
 
@@ -889,19 +889,19 @@ $2,400/period of system account cost. It-admin's spread across 11 projects sugge
 ANALYSIS COMPLETE (MCP REFRESH)
 --------------------------------
 FTEs analyzed:        25
-Total est. spend:     $104,160
-Client revenue:       $20,299 (19.5%)
-Presales pipeline:    $33,375 (32.0%)
-Internal absorbed:    $50,487 (48.5%)
+Total est. spend:     $103,440
+Client revenue:       $20,122 (19.5%)
+Presales pipeline:    $32,333 (31.3%)
+Internal absorbed:    $50,985 (49.3%)
 Unclassified:         $0 (0%)
 Data completeness:    100% (full MCP refresh)
 
 Combined org spend (FTE + Contractor):
-  Total:    $131,760
-  Client:   $27,639 (21.0%)
-  Presales: $47,073 (35.7%)
-  Internal: $55,129 (41.8%)
-  Zero:     $1,920 (1.5%)
+  Total:    $130,800
+  Client:   $28,167 (21.5%)
+  Presales: $46,952 (35.9%)
+  Internal: $55,681 (42.6%)
+  Zero:     $0 (0%)
 ```
 
-*Analysis prepared under the Jon Gray CFO Persona. All data points sourced from the Verified Fact-Finding Report (Feb 20, 2026) with full project breakdowns from MCP refresh. Project tagging 100% — zero unclassified activities.*
+*Analysis prepared under the Jon Gray CFO Persona. All data points sourced from the Verified Fact-Finding Report (Feb 20, 2026) with full project breakdowns from MCP refresh. Project tagging 100% — zero unclassified activities. Corrected Feb 20: Animesh (animesh@realfast.ai) is the FTE; Das Animesh (das.animesh@realfast.ai) is a contractor — original analysis had these identities swapped.*

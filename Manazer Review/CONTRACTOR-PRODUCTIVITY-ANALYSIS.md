@@ -14,13 +14,12 @@
 |--------|-------|
 | Active Contractors | 9 |
 | Cost Rate (all) | $30/hr (internal cost) |
-| Total Estimated Period Spend | $27,600 |
-| Revenue-Generating (Client) | $7,340 (26.6%) |
-| Cost of Sales (Presales) | $13,698 (49.6%) |
-| Internal (Absorbed) | $4,642 (16.8%) |
-| Zero Output (Animesh) | $1,920 (7.0%) |
+| Total Estimated Period Spend | $27,360 |
+| Revenue-Generating (Client) | $8,045 (29.4%) |
+| Cost of Sales (Presales) | $14,619 (53.4%) |
+| Internal (Absorbed) | $4,696 (17.2%) |
 
-**The bottom line:** For every dollar spent on contractors in this period, 27 cents produced client revenue, 50 cents went to presales pipeline investment, 17 cents was absorbed internal cost, and 7 cents produced zero output. Project tagging discipline is clean — every activity is attributed to a project. The real question is whether 50% presales investment will convert, and whether contractors should be doing internal tooling work.
+**The bottom line:** For every dollar spent on contractors in this period, ~29 cents produced client revenue, ~53 cents went to presales pipeline investment, and ~17 cents was absorbed internal cost. Project tagging discipline is clean — every activity is attributed to a project. The real question is whether 53% presales investment will convert, and whether contractors should be doing internal tooling work.
 
 ---
 
@@ -44,9 +43,6 @@
 | **Client (Revenue)** | Work that generates income — the only bucket that pays for itself | SIM Managed Services, SIM, TASC-Managed-Services, NUS-fin.-reporting-POC, nus-contract-generation, scientific-portfolio, Hypernative, Boardroom |
 | **Presales (Cost of Sales)** | Investment in future revenue — justified but must convert | All starter-pack-\*, starter-packs, Pre-Sales-Delivery, service-cloud-starter-pack-optimization |
 | **Internal (Absorbed)** | Operational cost — acceptable if intentional | manazer, exo-sf-core-agent, exo-code-server, exo-agent-builder, exo-help, harvester, New-Website, content-branding |
-| **Zero Output** | Contractor on payroll with no recorded activities | Animesh (contractor) — data mapping issue + no output |
-
-**Methodology Exception — Animesh (Contractor):** Joined Feb 9. Manazer has a contributor mapping error where his record contains activities belonging to another person (Das Animesh, FTE). His cost is calculated using employment days (8 business days) rather than Active Days, since his Manazer data is unreliable. All 6 activities under the "Animesh" record are misattributed.
 
 ---
 
@@ -57,18 +53,15 @@
 | Rank | Contractor | Est. Period Cost | Total Activities | Active Days | Revenue Util. | Effective $/hr |
 |---:|---|---:|---:|---:|---:|---:|
 | 1 | Prabhat Ranjan | $3,360 | 250 | 14 | 100.0% | $30.00 |
-| 2 | Rakesh Poddar | $3,600 | 934 | 15 | 27.6% | $108.70 |
-| 3 | Bharat | $3,360 | 367 | 14 | 26.7% | $112.36 |
-| 4 | Ganesh Hegde | $3,120 | 454 | 13 | 25.3% | $118.58 |
-| 5 | Shantanu | $3,120 | 246 | 13 | 20.3% | $147.78 |
-| 6 | Nikhil Galagali | $3,360 | 475 | 14 | 19.8% | $151.52 |
-| 7 | Paharlaya Basnet | $2,880 | 351 | 12 | 0.0% | N/A |
-| 8 | Manas | $2,880 | 190 | 12 | 0.0% | N/A |
-| 9 | Animesh | $1,920 | 0* | 8** | 0.0% | N/A |
-| | **TOTAL** | **$27,600** | **3,267** | | | |
-
-\* Manazer data misattributed — see Data Caveats
-\** Employment days since joining Feb 9, not Manazer Active Days
+| 2 | Das Animesh | $1,680 | 62 | 7 | 41.9% | $71.60 |
+| 3 | Rakesh Poddar | $3,600 | 934 | 15 | 27.6% | $108.70 |
+| 4 | Bharat | $3,360 | 367 | 14 | 26.7% | $112.36 |
+| 5 | Ganesh Hegde | $3,120 | 454 | 13 | 25.3% | $118.58 |
+| 6 | Shantanu | $3,120 | 246 | 13 | 20.3% | $147.78 |
+| 7 | Nikhil Galagali | $3,360 | 475 | 14 | 19.8% | $151.52 |
+| 8 | Paharlaya Basnet | $2,880 | 351 | 12 | 0.0% | N/A |
+| 9 | Manas | $2,880 | 190 | 12 | 0.0% | N/A |
+| | **TOTAL** | **$27,360** | **3,329** | | | |
 
 ---
 
@@ -76,18 +69,18 @@
 
 **What this table shows:** How each contractor's estimated cost breaks down across cost buckets. Calculated by mapping each contractor's project activities to the bucket classification, then prorating their period cost by activity proportion. Full project breakdowns from MCP refresh — all activities are project-attributed (zero nil-project records).
 
-| Contractor | Period Cost | Client ($) | Presales ($) | Internal ($) | Zero Output ($) |
-|---|---:|---:|---:|---:|---:|
-| Prabhat Ranjan | $3,360 | $3,360 (100%) | $0 | $0 | |
-| Rakesh Poddar | $3,600 | $994 (28%) | $2,606 (72%) | $0 | |
-| Bharat | $3,360 | $897 (27%) | $2,445 (73%) | $18 (<1%) | |
-| Ganesh Hegde | $3,120 | $790 (25%) | $2,330 (75%) | $0 | |
-| Shantanu | $3,120 | $634 (20%) | $926 (30%) | $1,560 (50%) | |
-| Nikhil Galagali | $3,360 | $665 (20%) | $2,511 (75%) | $184 (5%) | |
-| Paharlaya Basnet | $2,880 | $0 | $2,880 (100%) | $0 | |
-| Manas | $2,880 | $0 | $0 | $2,880 (100%) | |
-| Animesh | $1,920 | $0 | $0 | $0 | $1,920 (100%) |
-| **TOTAL** | **$27,600** | **$7,340 (27%)** | **$13,698 (50%)** | **$4,642 (17%)** | **$1,920 (7%)** |
+| Contractor | Period Cost | Client ($) | Presales ($) | Internal ($) |
+|---|---:|---:|---:|---:|
+| Prabhat Ranjan | $3,360 | $3,360 (100%) | $0 | $0 |
+| Rakesh Poddar | $3,600 | $994 (28%) | $2,606 (72%) | $0 |
+| Bharat | $3,360 | $897 (27%) | $2,445 (73%) | $18 (<1%) |
+| Ganesh Hegde | $3,120 | $790 (25%) | $2,330 (75%) | $0 |
+| Das Animesh | $1,680 | $705 (42%) | $921 (55%) | $54 (3%) |
+| Shantanu | $3,120 | $634 (20%) | $926 (30%) | $1,560 (50%) |
+| Nikhil Galagali | $3,360 | $665 (20%) | $2,511 (75%) | $184 (5%) |
+| Paharlaya Basnet | $2,880 | $0 | $2,880 (100%) | $0 |
+| Manas | $2,880 | $0 | $0 | $2,880 (100%) |
+| **TOTAL** | **$27,360** | **$8,045 (29%)** | **$14,619 (53%)** | **$4,696 (17%)** |
 
 ---
 
@@ -105,7 +98,74 @@
 | Nikhil Galagali | 166 | 2 | 94 | $20.24 | $1,680.00 | $35.74 |
 | Paharlaya Basnet | 131 | 2 | 0 | $21.98 | $1,440.00 | N/A |
 | Manas | 54 | 19 | 0 | $53.33 | $151.58 | N/A |
-| Animesh | 0 | 0 | 0 | N/A | N/A | N/A |
+| Das Animesh | 10 | 1 | 26 | $168.00 | $1,680.00 | $64.62 |
+
+---
+
+## 5A. Activity Quality Audit — Output vs Noise
+
+**Why this matters:** The analysis above treats all Manazer activities equally — a code commit, a completed ticket, and a ClickUp comment all count as "1 activity." When we prorate cost across projects using activity counts, a contractor who comments on 50 client tickets looks the same as one who ships 50 commits. They are not the same. This section strips the noise to show what contractors are actually *producing* versus what they're merely *participating in*.
+
+**Definitions:**
+- **Real Output** = Code commits + Tickets completed. These are verifiable deliverables.
+- **ClickUp Noise** = Ticket comments + Status changes + Ticket creations. These may indicate engagement but do not prove work was done. A comment saying "ok will look into it" and a comment containing a full technical breakdown both count as 1 activity.
+
+### Activity Composition by Contractor
+
+| Contractor | Total Activities | Commits | Tickets Done | Real Output | Real % | Comments | Status Chg | Created | Noise | Noise % |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Prabhat Ranjan | 255 | 53 | 6 | 59 | 23% | 148 | 41 | 7 | 196 | 77% |
+| Rakesh Poddar | 952 | 99 | 81 | 180 | 19% | 299 | 214 | 259 | 772 | 81% |
+| Bharat | 395 | 113 | 7 | 120 | 30% | 183 | 87 | 5 | 275 | 70% |
+| Ganesh Hegde | 458 | 152 | 2 | 154 | 34% | 225 | 78 | 1 | 304 | 66% |
+| Nikhil Galagali | 493 | 173 | 2 | 175 | 36% | 265 | 49 | 4 | 318 | 65% |
+| Paharlaya Basnet | 367 | 131 | 2 | 133 | 36% | 203 | 28 | 3 | 234 | 64% |
+| Shantanu | 246 | 79 | 10 | 89 | 36% | 110 | 37 | 10 | 157 | 64% |
+| Manas | 190 | 54 | 19 | 73 | 38% | 42 | 58 | 17 | 117 | 62% |
+| Das Animesh | 62 | 10 | 1 | 11 | 18% | 34 | 13 | 4 | 51 | 82% |
+| **TOTAL** | **3,418** | **864** | **130** | **994** | **29%** | **1,509** | **607** | **310** | **2,424** | **71%** |
+
+**71% of all contractor activity is ClickUp noise.** Only 29% — 994 out of 3,418 activities — represents verifiable output (code committed or tickets completed).
+
+### Revenue Utilization: All-Activity vs Real-Output-Only
+
+**What changes when you strip the noise:** Revenue utilization is recalculated using only commits and ticket completions (both the contractor's and the project's).
+
+| Contractor | Rev Util (Current) | Rev Util (Real Only) | Direction | Client Real Output | Client Noise |
+|---|---:|---:|---|---:|---:|
+| Prabhat Ranjan | 100.0% | 100.0% | — | 59 | 196 |
+| Rakesh Poddar | 28.3% | 43.3% | +15pp | 78 | 191 |
+| Ganesh Hegde | 25.5% | 37.0% | +12pp | 57 | 60 |
+| Das Animesh | 41.9% | 81.8% | +40pp | 9 | 17 |
+| Bharat | 24.8% | 24.2% | ~same | 29 | 69 |
+| Shantanu | 20.3% | 13.5% | -7pp | 12 | 38 |
+| Nikhil Galagali | 19.1% | 14.9% | -4pp | 26 | 68 |
+| Paharlaya Basnet | 0.0% | 0.0% | — | 0 | 0 |
+| Manas | 0.0% | 0.0% | — | 0 | 0 |
+
+**Two patterns emerge:**
+
+1. **Ganesh and Rakesh look *better* on real output** — their client work is code-heavy, not comment-heavy. When you strip ClickUp noise, their revenue utilization goes up because they're shipping code to client projects, not just commenting on tickets.
+
+2. **Shantanu and Nikhil look *worse*** — their "client activities" are disproportionately ClickUp comments, not code. Shantanu drops from 20.3% to 13.5%; Nikhil from 19.1% to 14.9%. Their apparent client engagement is inflated by ticket noise.
+
+### The Comment Problem
+
+The single largest activity category across all contractors is **ClickUp comments: 1,509 (44% of all activity)**. For context:
+
+- Rakesh: 299 comments, 99 commits (3:1 comment-to-commit ratio)
+- Nikhil: 265 comments, 173 commits (1.5:1)
+- Ganesh: 225 comments, 152 commits (1.5:1)
+- Paharlaya: 203 comments, 131 commits (1.6:1)
+- Prabhat: 148 comments, 53 commits (2.8:1)
+
+Some comments are substantive (technical discussions, design decisions). Some are perfunctory ("done", "ok", "will check"). **Manazer cannot distinguish between the two.** The current analysis treats them identically for cost allocation.
+
+### What This Means for Cost Allocation
+
+The cost allocation in Section 4 prorates each contractor's period cost by activity distribution across projects. Because 71% of activities are ClickUp noise, the cost allocation is driven primarily by *where contractors comment on tickets*, not *where they ship code*.
+
+For a contractor like Shantanu: his $634 "Client Revenue" allocation is based on 50 client activities — but only 12 of those are real output. The other 38 are ClickUp comments on client tickets. Whether those comments constitute meaningful client work or not is a judgment call that the data cannot make.
 
 ---
 
@@ -384,38 +444,42 @@
 
 ---
 
-### 6.9 Animesh (Contractor)
+### 6.9 Das Animesh
 
 **Activity Summary**
 
 | Metric | Value |
 |--------|-------|
-| Total Activities | 0 (correctly attributed)* |
+| Total Activities | 62 |
 | Joined | Feb 9, 2026 |
 | Available Business Days | 8 (Feb 9–20) |
-| Commits | 0 |
-| Tickets Completed | 0 |
-| Tickets Created | 0 |
-| Est. Period Cost | $1,920 |
-
-\* The "Animesh" record in Manazer (ID: 6f38b3c0) contains 6 activities, but these are misattributed: 4 activities on Feb 2 (before contractor joined) and 2 Boardroom activities belonging to Das Animesh (FTE). See Action Items.
+| Active Days | 7 of 8 |
+| Commits | 10 |
+| Tickets Completed | 1 |
+| Tickets Created | 4 |
+| Est. Period Cost | $1,680 |
 
 **Project Allocation**
 
 | Project | Classification | Activities | % of Total |
 |---------|---------------|---:|---:|
-| None | — | 0 | — |
+| Pre-Sales-Delivery | Presales | 33 | 53% |
+| SIM | Client | 11 | 18% |
+| scientific-portfolio | Client | 9 | 15% |
+| SIM Managed Services | Client | 4 | 6% |
+| manazer | Internal | 2 | 3% |
+| TASC-Managed-Services | Client | 2 | 3% |
+| starter-pack-healthcloud | Presales | 1 | 2% |
 
 **Cost to Company**
 
 | Bucket | Cost | % |
 |--------|---:|---:|
-| Client (Revenue) | $0 | 0% |
-| Presales | $0 | 0% |
-| Internal | $0 | 0% |
-| **Zero Output** | **$1,920** | **100%** |
+| Client (Revenue) | $705 | 42% |
+| Presales | $921 | 55% |
+| Internal | $54 | 3% |
 
-**Assessment:** Joined Feb 9 — 8 business days with zero recorded output. $1,920 spent with nothing to show. This is the most expensive per-output contractor in the roster because there is no output. Whether this is an onboarding delay, a data capture issue (work happening but not tracked), or genuine inactivity — management needs to investigate immediately. Additionally, his Manazer contributor record has a mapping error mixing his data with an FTE, which means even if he starts producing, his work may not be correctly attributed.
+**Assessment:** Joined Feb 9 and ramped quickly — active 7 of 8 available business days with 62 activities. 42% revenue utilization is 2nd best in the contractor roster after Prabhat. Diversified across 7 projects including meaningful client work on SIM ($11 activities) and scientific-portfolio (9 activities). 55% presales allocation is on Pre-Sales-Delivery. Low commit count (10) and only 1 ticket completed suggest early-stage work or onboarding ramp-up. At $71.60 effective hourly rate for client work, this is the 2nd most cost-efficient contractor. Strong start for a new joiner — monitor commit velocity and ticket completion as ramp-up continues.
 
 ---
 
@@ -423,24 +487,30 @@
 
 ### For Geetha (Delivery Head)
 
-**A. Animesh Contributor Mapping Fix**
+**A. Activity Quality Audit — What Are Contractors Actually Doing? (URGENT)**
 
-The "Animesh" Manazer contributor record (ID: 6f38b3c0) contains misattributed activities:
-- Feb 2 activities (manazer: 4) pre-date the contractor's Feb 9 start — these belong to the FTE
-- Feb 12 activities (Boardroom: 2) belong to Das Animesh (FTE), not the contractor
+71% of all contractor activity in this period is ClickUp ticket noise — comments, status changes, and ticket creations. Only 29% is verifiable output (code commits + completed tickets). The entire cost allocation model in this analysis depends on activity distribution, which means **cost is being allocated based on where people comment, not where they deliver.**
 
-**Action:** Separate the two Animesh contributors in Manazer. Reassign misattributed activities to the correct contributor. Verify the contractor's Manazer profile is correctly configured to capture his actual work going forward.
+Specific concerns:
 
-**B. Animesh (Contractor) Output Review**
+| Contractor | Total Acts | Real Output | Noise % | Issue |
+|---|---:|---:|---:|---|
+| Rakesh Poddar | 952 | 180 | 81% | 259 tickets *created* but only 81 *completed* — is he generating work or finishing it? |
+| Prabhat Ranjan | 255 | 59 | 77% | 148 comments vs 53 commits — what are the comments? Substantive or perfunctory? |
+| Das Animesh | 62 | 11 | 82% | New joiner (Feb 9). 34 comments, 10 commits. Is he ramping up or just tagged in threads? |
+| Nikhil Galagali | 493 | 175 | 65% | 265 comments, 173 commits. 68 client "activities" are just comments — real client output is only 26. |
+| Shantanu | 246 | 89 | 64% | Drops from 20% to 13.5% revenue util when noise is stripped. His "client work" is mostly comments. |
 
-Zero activities in 8 business days since joining. Determine:
-- Is this an onboarding issue? (Training period, access setup)
-- Is work happening but not being captured in Manazer? (Missing integrations)
-- Is this genuine inactivity? (Performance issue)
+**Action Required:**
 
-**Action:** Investigate immediately. At $30/hr, every week of zero output is $1,200.
+1. **Spot-check ClickUp comments** for the top 3 comment-heavy contractors (Rakesh: 299, Nikhil: 265, Ganesh: 225). Are these substantive technical discussions or one-line acknowledgments? Sample 10 comments per contractor.
+2. **Audit Rakesh's 259 ticket creations.** He created 259 tickets but completed 81. What happened to the other 178? Are they still open, reassigned, or abandoned? On a single starter-pack project, this volume of ticket creation warrants scrutiny.
+3. **Validate Das Animesh's ramp.** 10 commits in 7 active days is legitimate output for a new joiner. But 34 comments and 13 status changes suggest he may be tagged in conversations rather than leading work. Confirm he has clear ownership of deliverables.
+4. **Establish a baseline**: What is the expected commit-to-comment ratio for a productive contractor? Ganesh (1.5:1) and Nikhil (1.5:1) look reasonable. Prabhat (2.8:1) and Rakesh (3:1) warrant investigation.
 
-**C. Ticket Completion Discipline**
+**Why this is urgent:** Without this audit, every percentage in this analysis — revenue utilization, cost allocation, effective hourly rates — is built on a foundation that treats ticket comments as equivalent to shipped code. The numbers look clean but the underlying signal may be noise.
+
+**B. Ticket Completion Discipline**
 
 Four contractors show high commit counts but extremely low ticket completion:
 
@@ -455,7 +525,7 @@ Compare to Rakesh (99 commits, 79 tickets = 1.3:1) and Manas (54 commits, 19 tic
 
 **Action:** Audit ClickUp workflow for these contractors. Ensure tickets are created, tracked, and completed — not just code pushed.
 
-**D. Internal Contractor Allocation Review**
+**C. Internal Contractor Allocation Review**
 
 Two contractors are spending significant time on internal tooling:
 
@@ -469,13 +539,13 @@ $4,440/period ($115K annualized) of contractor spend on internal projects. **Dec
 
 ### For Sidu (Tech Lead)
 
-**E. PR Author Mapping**
+**D. PR Author Mapping**
 
 446 GitHub PR activities exist in the period but 0 map to cost_contributor=true records. GitHub noreply emails are not being matched to the contributor roster.
 
 **Action:** Map GitHub identities to Manazer contributors so PR data can be included in productivity analysis.
 
-**F. Project Budget Configuration**
+**E. Project Budget Configuration**
 
 Only 4 of 29 active projects have budget_cents configured in Manazer. Without budgets, we cannot calculate budget variance or overrun metrics.
 
@@ -491,10 +561,8 @@ Only 4 of 29 active projects have budget_cents configured in Manazer. Without bu
 
 3. **Cost Rates Are Internal.** The $30/hr rate is what the company pays, not what clients are billed. Revenue margin analysis requires billing rates (not available in Manazer).
 
-4. **Animesh Data Unreliable.** The "Animesh" Manazer contributor record mixes two different people's activities. Cost for the contractor is estimated using employment days (8), not Manazer Active Days. His 0-activity count may be partially a data capture issue rather than purely zero output.
-
-5. **Project Tagging Is Clean.** Full MCP refresh confirmed zero nil-project activities across all contractors. Every activity is attributed to a project. Earlier analysis (pre-MCP refresh) showed apparent "unaccounted" activities — this was a data visibility limitation (top-2 project view), not a tagging discipline failure.
+4. **Project Tagging Is Clean.** Full MCP refresh confirmed zero nil-project activities across all contractors. Every activity is attributed to a project. Earlier analysis (pre-MCP refresh) showed apparent "unaccounted" activities — this was a data visibility limitation (top-2 project view), not a tagging discipline failure.
 
 ---
 
-*Analysis prepared under the Jon Gray CFO Persona. All data points sourced from the Verified Fact-Finding Report (Feb 20, 2026) with full project breakdowns from MCP refresh.*
+*Analysis prepared under the Jon Gray CFO Persona. All data points sourced from the Verified Fact-Finding Report (Feb 20, 2026) with full project breakdowns from MCP refresh. Corrected Feb 20: Das Animesh (das.animesh@realfast.ai) is the SF contractor; Animesh (animesh@realfast.ai) is an FTE — original analysis had these identities swapped.*
