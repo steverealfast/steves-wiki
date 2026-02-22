@@ -1,55 +1,57 @@
 # FTE Productivity Analysis — Feb 1–20, 2026
 
-**Persona:** Jon Gray — CFO. Revenue Architect. Project Economist.
 **Scope:** Manazer | FTE cost efficiency, revenue utilization, internal investment, role economics | CEO + Delivery Head
-**Data Source:** Verified Fact-Finding Report (98.8% confidence) + Full MCP Project Refresh (Feb 20)
+**Data Source:** Verified Fact-Finding Report (98.8% confidence) + Full MCP Project Refresh (Feb 20) + FTE COMP.xlsx (actual compensation)
 **Period:** Feb 1–20, 2026 (15 business days)
-**Generated:** Feb 20, 2026
+**Generated:** Feb 20, 2026 | **Corrected:** Feb 22, 2026
+
+> **CORRECTION (Feb 22):** Original analysis used Manazer billing rates ($30–$120/hr) as cost. These are what we charge clients, NOT what we pay. Actual compensation data from FTE COMP.xlsx now used. Also corrected: FTEs are salaried — cost accrues for all 15 business days regardless of Manazer activity, not just "active days." Three personnel changes: Sidu excluded (CEO, cost tracked separately), Kaathyayani removed (departed), Piyush Sinha retained but no cost data. Net: 22 active FTEs vs original 25.
 
 ---
 
 ## 1. Executive Summary
 
-| Metric | Value |
-|--------|-------|
-| Active FTEs | 25 (excl. system accounts) |
-| Cost Rate Range | $30–$120/hr (4 tiers) |
-| Total Estimated Period Spend | $103,440 |
-| Revenue-Generating (Client) | $20,122 (19.5%) |
-| Presales (Cost of Sales) | $32,333 (31.3%) |
-| Internal (Absorbed) | $50,985 (49.3%) |
+| Metric | Corrected Value | Original (Wrong) | Change |
+|--------|----------------|-------------------|--------|
+| Active FTEs | 22 (excl. CEO, departed, system) | 25 | -3 |
+| Actual Cost Range | $3.13–$118.38/hr | $30–$120/hr (billing) | Now real comp |
+| Total Period Cost | **$83,885** | $103,440 | -$19,555 (-19%) |
+| Revenue-Generating (Client) | **$15,975 (19.0%)** | $20,122 (19.5%) | |
+| Presales (Cost of Sales) | **$23,336 (27.8%)** | $32,333 (31.3%) | |
+| Internal (Absorbed) | **$44,574 (53.1%)** | $50,985 (49.3%) | |
 
-**The bottom line:** For every dollar spent on FTEs, 19.5 cents produced client revenue, 31 cents went to presales pipeline investment, and 49 cents was absorbed internal cost. Nearly half the FTE spend goes to building internal platforms — $50,985/period ($1.3M annualized). Only 5 FTEs have revenue utilization above 20%. The $80/hr tier (9 people, $54,800) is the highest-cost segment with the lowest average output per dollar. The single largest internal cost center is the manazer platform at $21,066/period across 7 contributors. Project tagging is clean — every FTE activity maps to a project with zero nil-project records.
+**The corrected bottom line:** For every dollar of actual FTE cost, 19 cents produces client revenue, 28 cents goes to presales, and **53 cents is absorbed internal cost** — worse than the original 49% because the salaried cost methodology exposes "ghost cost" for FTEs with high salaries but low/no Manazer activity. The three biggest cost shifts: Paulomi ($7,680 → $14,206 — salaried for 15 days not 8 active days), Rajnish ($1,920 → $6,532 — same effect), and Asarar Ahmed ($3,600 → $376 — actual cost is $3.13/hr not $30/hr). Internal spend is $44,574/period ($1.16M annualized). Margin analysis now possible: billing rate minus actual cost reveals who generates margin (Jeetal Shah 74%, Asarar 90%) and who doesn't (Paulomi 1%).
 
 ### FTE vs Contractor Comparison
 
-| Metric | Contractors | FTEs | Combined |
-|--------|------------|------|----------|
-| Headcount | 9 | 25 | 34 |
-| Total Est. Spend | $27,360 | $103,440 | $130,800 |
-| Avg Cost/Person | $3,040 | $4,138 | $3,847 |
-| Client Revenue % | 29.4% | 19.5% | 21.5% |
-| Presales % | 53.4% | 31.3% | 35.9% |
-| Internal % | 17.2% | 49.3% | 42.6% |
-| Zero Output % | 0% | 0% | 0% |
-| Avg Activities/Person | 370 | 130 | 193 |
+| Metric | Contractors | FTEs (Corrected) | Combined |
+|--------|------------|-------------------|----------|
+| Headcount | 9 | 22 | 31 |
+| Total Period Cost | $27,360 | $83,885 | $111,245 |
+| Avg Cost/Person | $3,040 | $3,813 | $3,589 |
+| Client Revenue % | 29.4% | 19.0% | 21.5% |
+| Presales % | 53.4% | 27.8% | 34.3% |
+| Internal % | 17.2% | 53.1% | 44.2% |
+| Avg Activities/Person | 370 | 138 | 205 |
 
-**The structural pattern:** Contractors are presales-heavy (53.4%) while FTEs are internal-heavy (49.3%). FTEs build the platform; contractors build the pipeline. The question is whether this is by design or by drift.
+**The structural pattern persists but is sharper:** Contractors are presales-heavy (53.4%) while FTEs are internal-heavy (53.1%). FTEs build the platform; contractors build the pipeline. At actual cost, FTEs average $3,813/person vs contractors at $3,040 — the gap is narrower than billing rates suggested. The combined internal share is 44.2% ($49,231/period, $1.28M annualized).
 
 ---
 
 ## 2. Methodology & Definitions
 
-**Methodology matches the Contractor Productivity Analysis** for direct comparability. Full MCP project refresh performed — every FTE activity is classified to a cost bucket. Zero unclassified.
+**Key correction from original:** FTEs are salaried. Cost is based on actual compensation (from FTE COMP.xlsx), not Manazer billing rates. Period cost uses all 15 business days (paid regardless of activity), not just Manazer-active days. This exposes "ghost cost" — the gap between what we pay and what Manazer can account for.
 
 | Term | Definition | Calculation |
 |------|-----------|-------------|
-| **Estimated Period Cost** | What the company paid this FTE for the period | Active Days x 8 hrs x $/hr |
-| **Revenue Utilization Rate** | % of activities mapped to client (revenue-generating) projects | Client Activities / Total Activities |
-| **Effective Hourly Rate** | What each hour of client work actually costs after dilution | $/hr / Revenue Utilization Rate |
-| **Cost/Commit** | Cost per code commit — code output efficiency proxy | Period Cost / Commits |
-| **Cost/Ticket** | Cost per completed ticket — throughput efficiency proxy | Period Cost / Tickets Completed |
-| **Cost/Revenue Activity** | Cost per client-attributed activity — revenue efficiency | Period Cost / Client Activities |
+| **Period Cost** | Actual salary cost for the period | Actual $/hr x 8 hrs x 15 business days |
+| **Actual $/hr** | Real compensation rate | Monthly USD / 176 hrs (22 days x 8) |
+| **Billing $/hr** | What we charge clients (Manazer rate) | From Manazer cost_cents_per_hour |
+| **Margin** | Difference between billing and actual cost | Billing $/hr - Actual $/hr |
+| **Revenue Utilization Rate** | % of activities mapped to client projects | Client Activities / Total Activities |
+| **Effective Hourly Rate** | True cost per hour of client work | Actual $/hr / Revenue Utilization Rate |
+| **Cost/Commit** | Cost per code commit | Period Cost / Commits |
+| **Cost/Ticket** | Cost per completed ticket | Period Cost / Tickets Completed |
 
 **Cost Bucket Definitions** (same as Contractor Analysis):
 
@@ -65,87 +67,104 @@
 
 ## 3. FTE Roster — Ranked by Revenue Contribution
 
-**What this table shows:** All 25 FTEs ranked by the proportion of their work that directly generates client revenue. Full project data from MCP refresh — zero unclassified activities.
+**What this table shows:** 22 active FTEs ranked by revenue utilization. Period cost uses actual compensation, not billing rates. "Margin" = what we make when this person does client work.
 
-| Rank | FTE | Rate | Est. Period Cost | Total Activities | Active Days | Revenue Util. | Effective $/hr |
-|---:|---|---:|---:|---:|---:|---:|---:|
-| 1 | Rishi | $80 | $1,920 | 4 | 3 | 100.0% | $80.00 |
-| 2 | Isaac | $30 | $3,120 | 330 | 13 | 97.9% | $30.64 |
-| 3 | Akhil | $50 | $4,000 | 408 | 10 | 89.2% | $56.05 |
-| 4 | Anirudh | $80 | $5,120 | 82 | 8 | 54.9% | $145.72 |
-| 5 | Kaathyayani | $30 | $1,920 | 19 | 8 | 26.3% | $114.00 |
-| 6 | Saurav Shah | $50 | $5,600 | 359 | 14 | 25.1% | $199.20 |
-| 7 | Harsh | $50 | $2,000 | 16 | 5 | 25.0% | $200.00 |
-| 8 | Geetha | $80 | $8,960 | 212 | 14 | 24.5% | $326.15 |
-| 9 | Animesh | $30 | $720 | 9 | 3 | 22.2% | $135.14 |
-| 10 | Sidu | $80 | $8,320 | 133 | 13 | 21.1% | $379.71 |
-| 11 | Megha Bc | $30 | $3,120 | 334 | 13 | 13.2% | $227.27 |
-| 12 | Jewel James | $80 | $10,240 | 215 | 16 | 12.6% | $636.51 |
-| 13 | Srini | $80 | $7,040 | 91 | 11 | 6.6% | $1,212.12 |
-| 14 | Priyanshu Gaur | $50 | $6,000 | 188 | 15 | 1.1% | $4,687.50 |
-| 15 | Aniket | $50 | $5,200 | 211 | 13 | 0.5% | $10,600.00 |
-| 16 | Asarar Ahmed | $30 | $3,600 | 358 | 15 | 0.0% | N/A |
-| 17 | Saurabh | $30 | $2,400 | 102 | 10 | 0.0% | N/A |
-| 18 | Karthik | $80 | $7,680 | 61 | 12 | 0.0% | N/A |
-| 19 | Rohit T | $30 | $2,400 | 56 | 10 | 0.0% | N/A |
-| 20 | Paulomi | $120 | $7,680 | 43 | 8 | 0.0% | N/A |
-| 21 | Rajnish | $80 | $1,920 | 10 | 3 | 0.0% | N/A |
-| 22 | Suraj | $50 | $2,000 | 10 | 5 | 0.0% | N/A |
-| 23 | Sumanth | $50 | $1,600 | 9 | 4 | 0.0% | N/A |
-| 24 | Piyush Sinha | $30 | $240 | 2 | 1 | 0.0% | N/A |
-| 25 | Jeetal Shah | $80 | $640 | 2 | 1 | 0.0% | N/A |
-| | **TOTAL** | | **$103,440** | **3,247** | | | |
+| Rank | FTE | Actual $/hr | Bill $/hr | Margin % | Period Cost | Total Acts | Active Days | Rev Util. |
+|---:|---|---:|---:|---:|---:|---:|---:|---:|
+| 1 | Rishi | $46.88 | $80 | 41% | $5,626 | 4 | 3 | 100.0% |
+| 2 | Isaac | $14.58 | $30 | 51% | $1,750 | 330 | 13 | 97.9% |
+| 3 | Akhil | $13.54 | $50 | 73% | $1,625 | 408 | 10 | 89.2% |
+| 4 | Anirudh | $38.54 | $80 | 52% | $4,625 | 82 | 8 | 54.9% |
+| 5 | Animesh | $12.24 | $30 | 59% | $1,469 | 6 | 2 | 33.3% |
+| 6 | Saurav Shah | $34.09 | $50 | 32% | $4,091 | 359 | 14 | 25.1% |
+| 7 | Harsh | $26.04 | $50 | 48% | $3,125 | 16 | 5 | 25.0% |
+| 8 | Geetha | $36.46 | $80 | 54% | $4,375 | 214 | 14 | 24.3% |
+| 9 | Megha Bc | $9.38 | $30 | 69% | $1,126 | 334 | 13 | 13.2% |
+| 10 | Jewel James | $51.14 | $80 | 36% | $6,137 | 215 | 16 | 12.6% |
+| 11 | Srini | $41.67 | $80 | 48% | $5,000 | 91 | 11 | 6.6% |
+| 12 | Priyanshu Gaur | $14.58 | $50 | 71% | $1,750 | 188 | 15 | 1.1% |
+| 13 | Aniket | $39.06 | $50 | 22% | $4,687 | 211 | 13 | 0.5% |
+| 14 | Rohit T | $15.63 | $30 | 48% | $1,876 | 56 | 10 | 0.0% |
+| 15 | Karthik | $36.46 | $80 | 54% | $4,375 | 61 | 12 | 0.0% |
+| 16 | Rajnish | $54.43 | $80 | 32% | $6,532 | 10 | 3 | 0.0% |
+| 17 | Sumanth | $28.13 | $50 | 44% | $3,376 | 9 | 4 | 0.0% |
+| 18 | Paulomi | $118.38 | $120 | 1% | $14,206 | 43 | 8 | 0.0% |
+| 19 | Saurabh | $22.50 | $30 | 25% | $2,700 | 102 | 10 | 0.0% |
+| 20 | Suraj | $21.35 | $50 | 57% | $2,562 | 10 | 5 | 0.0% |
+| 21 | Jeetal Shah | $20.83 | $80 | 74% | $2,500 | 2 | 1 | 0.0% |
+| 22 | Asarar Ahmed | $3.13 | $30 | 90% | $376 | 358 | 15 | 0.0% |
+| | **TOTAL** | | | | **$83,885** | **3,044** | | |
 
----
+**New insight — Margin analysis:** Jeetal Shah (74%), Asarar Ahmed (90%), Akhil (73%), and Priyanshu (71%) have the highest margins. If deployed on client work, they generate the most profit per billing hour. Paulomi (1% margin) is essentially at-cost — her $120 billing rate barely covers her $118.38 actual cost. Aniket (22%) has low margin even when billing.
 
-## 4. Cost Allocation Summary
-
-**What this table shows:** How each FTE's estimated cost breaks down across cost buckets. Full MCP project refresh — every activity classified.
-
-| FTE | Period Cost | Client ($) | Presales ($) | Internal ($) |
-|---|---:|---:|---:|---:|
-| Isaac | $3,120 | $3,054 (98%) | $0 | $66 (2%) |
-| Akhil | $4,000 | $3,569 (89%) | $59 (1%) | $373 (9%) |
-| Anirudh | $5,120 | $2,810 (55%) | $0 | $2,310 (45%) |
-| Geetha | $8,960 | $2,198 (25%) | $6,254 (70%) | $508 (6%) |
-| Rishi | $1,920 | $1,920 (100%) | $0 | $0 |
-| Sidu | $8,320 | $1,750 (21%) | $3,128 (38%) | $3,442 (41%) |
-| Saurav Shah | $5,600 | $1,404 (25%) | $967 (17%) | $3,229 (58%) |
-| Jewel James | $10,240 | $1,288 (13%) | $2,907 (28%) | $6,045 (59%) |
-| Kaathyayani | $1,920 | $505 (26%) | $1,415 (74%) | $0 |
-| Harsh | $2,000 | $500 (25%) | $0 | $1,500 (75%) |
-| Srini | $7,040 | $464 (7%) | $310 (4%) | $6,266 (89%) |
-| Megha Bc | $3,120 | $411 (13%) | $2,709 (87%) | $0 |
-| Animesh | $720 | $160 (22%) | $0 | $560 (78%) |
-| Priyanshu Gaur | $6,000 | $64 (1%) | $3,191 (53%) | $2,745 (46%) |
-| Aniket | $5,200 | $25 (<1%) | $690 (13%) | $4,485 (86%) |
-| Paulomi | $7,680 | $0 | $7,680 (100%) | $0 |
-| Asarar Ahmed | $3,600 | $0 | $1,890 (53%) | $1,710 (47%) |
-| Saurabh | $2,400 | $0 | $0 | $2,400 (100%) |
-| Karthik | $7,680 | $0 | $1,133 (15%) | $6,547 (85%) |
-| Rohit T | $2,400 | $0 | $0 | $2,400 (100%) |
-| Rajnish | $1,920 | $0 | $0 | $1,920 (100%) |
-| Suraj | $2,000 | $0 | $0 | $2,000 (100%) |
-| Sumanth | $1,600 | $0 | $0 | $1,600 (100%) |
-| Piyush Sinha | $240 | $0 | $0 | $240 (100%) |
-| Jeetal Shah | $640 | $0 | $0 | $640 (100%) |
-| **TOTAL** | **$103,440** | **$20,122 (19%)** | **$32,333 (31%)** | **$50,985 (49%)** |
+**Ghost cost alert:** Rajnish costs $6,532/period (3rd highest) but has only 10 activities and 3 active days. Paulomi costs $14,206 (highest) with 43 activities and 8 active days. The salaried methodology reveals these as the biggest "cost vs visible output" gaps.
 
 ---
 
-## 5. Cost Tier Analysis
+## 4. Cost Allocation Summary (Corrected)
 
-**What this table shows:** FTE spend and output aggregated by cost rate tier. Higher-cost tiers should theoretically deliver higher-value output.
+**What this table shows:** Each FTE's actual salary cost allocated across cost buckets based on activity proportions. Sorted by client revenue contribution.
 
-| Tier | Rate | Count | Total Est. Spend | Avg Activities | Avg Commits | Client $ | Client % | Presales $ | Internal $ |
-|------|------|------:|---:|---:|---:|---:|---:|---:|---:|
-| Tier 1 | $120/hr | 1 | $7,680 | 43 | 29 | $0 | 0% | $7,680 | $0 |
-| Tier 2 | $80/hr | 9 | $54,800 | 88 | 14 | $10,935 | 20% | $13,722 | $30,143 |
-| Tier 3 | $50/hr | 7 | $30,400 | 216 | 58 | $5,592 | 18% | $7,907 | $16,901 |
-| Tier 4 | $30/hr | 8 | $10,560 | 201 | 76 | $3,595 | 34% | $3,024 | $3,942 |
-| **Total** | | **25** | **$103,440** | **130** | **37** | **$20,122** | **19%** | **$32,333** | **$50,985** |
+| FTE | Actual $/hr | Period Cost | Client ($) | Presales ($) | Internal ($) |
+|---|---:|---:|---:|---:|---:|
+| Rishi | $46.88 | $5,626 | $5,626 (100%) | $0 | $0 |
+| Anirudh | $38.54 | $4,625 | $2,538 (55%) | $0 | $2,087 (45%) |
+| Isaac | $14.58 | $1,750 | $1,712 (98%) | $0 | $37 (2%) |
+| Akhil | $13.54 | $1,625 | $1,450 (89%) | $24 (1%) | $151 (9%) |
+| Geetha | $36.46 | $4,375 | $1,063 (24%) | $3,067 (70%) | $245 (6%) |
+| Saurav Shah | $34.09 | $4,091 | $1,026 (25%) | $706 (17%) | $2,359 (58%) |
+| Harsh | $26.04 | $3,125 | $781 (25%) | $0 | $2,344 (75%) |
+| Jewel James | $51.14 | $6,137 | $771 (13%) | $1,741 (28%) | $3,625 (59%) |
+| Animesh | $12.24 | $1,469 | $490 (33%) | $0 | $979 (67%) |
+| Srini | $41.67 | $5,000 | $330 (7%) | $220 (4%) | $4,451 (89%) |
+| Megha Bc | $9.38 | $1,126 | $148 (13%) | $977 (87%) | $0 |
+| Aniket | $39.06 | $4,687 | $22 (<1%) | $622 (13%) | $4,043 (86%) |
+| Priyanshu Gaur | $14.58 | $1,750 | $19 (1%) | $931 (53%) | $800 (46%) |
+| Paulomi | $118.38 | $14,206 | $0 | $14,206 (100%) | $0 |
+| Karthik | $36.46 | $4,375 | $0 | $646 (15%) | $3,730 (85%) |
+| Rajnish | $54.43 | $6,532 | $0 | $0 | $6,532 (100%) |
+| Sumanth | $28.13 | $3,376 | $0 | $0 | $3,376 (100%) |
+| Saurabh | $22.50 | $2,700 | $0 | $0 | $2,700 (100%) |
+| Suraj | $21.35 | $2,562 | $0 | $0 | $2,562 (100%) |
+| Jeetal Shah | $20.83 | $2,500 | $0 | $0 | $2,500 (100%) |
+| Rohit T | $15.63 | $1,876 | $0 | $0 | $1,876 (100%) |
+| Asarar Ahmed | $3.13 | $376 | $0 | $197 (52%) | $178 (48%) |
+| **TOTAL** | | **$83,885** | **$15,975 (19%)** | **$23,336 (28%)** | **$44,574 (53%)** |
 
-**The inversion problem persists:** The lowest-cost tier ($30/hr) has the highest client revenue rate (33%) AND the highest average output (206 activities, 78 commits per person). The $80/hr tier spends 55% on internal ($30,143) — more internal $ than the other 3 tiers combined ($20,344). The $120/hr tier is 100% presales.
+**Biggest cost corrections vs original:**
+
+| FTE | Old Cost | New Cost | Change | Why |
+|---|---:|---:|---:|---|
+| Paulomi | $7,680 | $14,206 | +$6,526 | Paid 15 days, not 8 active days |
+| Rajnish | $1,920 | $6,532 | +$4,612 | Paid 15 days, not 3 active days |
+| Rishi | $1,920 | $5,626 | +$3,706 | Paid 15 days, not 3 active days |
+| Jewel James | $10,240 | $6,137 | -$4,103 | Actual $51/hr not $80 billing |
+| Karthik | $7,680 | $4,375 | -$3,305 | Actual $36/hr not $80 billing |
+| Asarar Ahmed | $3,600 | $376 | -$3,224 | Actual $3.13/hr not $30 billing |
+| Priyanshu Gaur | $6,000 | $1,750 | -$4,250 | Actual $14.58/hr not $50 billing |
+| Akhil | $4,000 | $1,625 | -$2,375 | Actual $13.54/hr not $50 billing |
+
+---
+
+## 5. Cost Tier Analysis (Corrected — Actual Cost Tiers)
+
+**What this table shows:** FTEs grouped by actual compensation tier (not billing rate). Reveals true cost structure.
+
+| Tier | Actual $/hr Range | Count | Total Cost | Avg Acts | Client $ | Client % | Presales $ | Internal $ |
+|------|-------------------|------:|---:|---:|---:|---:|---:|---:|
+| Premium | $100+ | 1 (Paulomi) | $14,206 | 43 | $0 | 0% | $14,206 | $0 |
+| Senior | $40–60 | 4 | $23,295 | 80 | $6,727 | 29% | $1,961 | $14,607 |
+| Mid | $20–40 | 7 | $29,266 | 159 | $4,460 | 15% | $5,061 | $19,745 |
+| Junior | Under $20 | 10 | $17,118 | 183 | $4,788 | 28% | $2,108 | $10,222 |
+| **Total** | | **22** | **$83,885** | **138** | **$15,975** | **19%** | **$23,336** | **$44,574** |
+
+**Senior tier ($40–60):** Rishi ($46.88), Jewel James ($51.14), Rajnish ($54.43), Srini ($41.67). $23,295 total, 63% internal. Rajnish alone is $6,532 of internal cost with 10 activities. Rishi is the bright spot: 100% client revenue.
+
+**Mid tier ($20–40):** Aniket ($39.06), Anirudh ($38.54), Karthik ($36.46), Geetha ($36.46), Saurav Shah ($34.09), Sumanth ($28.13), Harsh ($26.04). $29,266 total, 67% internal. Geetha stands out with 70% presales. Anirudh has 55% client.
+
+**Junior tier (Under $20):** 10 FTEs averaging $17/hr actual cost. $17,118 total, 28% client — the highest client rate of any tier. Isaac ($14.58) and Akhil ($13.54) are the revenue workhorses at low cost.
+
+**The inversion is even sharper with actual costs:** Junior-tier FTEs generate 28% client revenue at $17K total cost. Senior-tier FTEs generate 29% client but at $23K — and that's entirely from one person (Rishi). Remove Rishi and the Senior tier drops to 5% client. The most expensive non-revenue FTE is Rajnish at $6,532/period with zero client work.
 
 ---
 
@@ -871,37 +890,45 @@ $2,400/period of system account cost. It-admin's spread across 11 projects sugge
 
 ## 12. Data Caveats
 
-1. **Activity does not equal hours.** Same as contractor analysis — Manazer counts events, not time. A 4-hour architecture review and a 30-second ticket comment both count as 1 activity. This disproportionately undervalues leadership/management roles.
+1. **Activity does not equal hours.** Manazer counts events, not time. A 4-hour architecture review and a 30-second ticket comment both count as 1 activity. This disproportionately undervalues leadership/management roles.
 
-2. **FTE cost underestimated.** Active Days methodology underestimates true FTE cost because FTEs are salaried regardless of Manazer activity. An FTE with 8 active days is paid for all 15 (minus leave), not 8. The "ghost cost" — paid but untracked days — is not captured.
+2. ~~**FTE cost underestimated.**~~ **RESOLVED (Feb 22).** Now using salaried methodology: Period Cost = Actual $/hr x 8 x 15 business days. Ghost cost is now visible.
 
 3. **PR data excluded.** Same 446-PR data gap. Code review and merge activity invisible for all contributors.
 
-4. **Cost rates may be billing, not compensation.** The $30-$120/hr tiers may represent billing rates, internal cost, or compensation — affects all calculations.
+4. ~~**Cost rates may be billing, not compensation.**~~ **RESOLVED (Feb 22).** Actual compensation from FTE COMP.xlsx now used. Billing rates retained for margin analysis.
 
-5. **Role context missing.** No role/title field in Manazer. $80/hr FTEs may be managers, architects, or senior ICs — their value isn't captured by activity counts.
+5. **Role context missing.** No role/title field in Manazer. High-cost FTEs may be managers, architects, or senior ICs — their value isn't captured by activity counts.
 
-6. **Project tagging is clean.** Full MCP refresh confirmed: every FTE activity maps to a project. Zero nil-project activities. All percentages are based on complete data.
+6. **Project tagging is clean.** Full MCP refresh confirmed: every FTE activity maps to a project. Zero nil-project activities.
+
+7. **Contributor identity fragmentation (NEW).** Akash K Mohan has 2 contributor records (534 combined activities split across accounts). Amul Badjatya uses a local machine email. Prashant Mittal has a split GitHub identity. See FTE-COST-REGISTER.md Data Hygiene section for details.
+
+8. **Three FTEs excluded from this update:** Sidu (CEO — cost tracked separately), Kaathyayani (departed), Piyush Sinha (no compensation data available).
 
 ---
 
 ```
-ANALYSIS COMPLETE (MCP REFRESH)
---------------------------------
-FTEs analyzed:        25
-Total est. spend:     $103,440
-Client revenue:       $20,122 (19.5%)
-Presales pipeline:    $32,333 (31.3%)
-Internal absorbed:    $50,985 (49.3%)
+ANALYSIS COMPLETE (CORRECTED Feb 22, 2026)
+-------------------------------------------
+FTEs analyzed:        22 (excl. CEO, departed, no-data)
+Total actual cost:    $83,885 (was $103,440 at billing rates)
+Client revenue:       $15,975 (19.0%)
+Presales pipeline:    $23,336 (27.8%)
+Internal absorbed:    $44,574 (53.1%)
 Unclassified:         $0 (0%)
 Data completeness:    100% (full MCP refresh)
 
 Combined org spend (FTE + Contractor):
-  Total:    $130,800
-  Client:   $28,167 (21.5%)
-  Presales: $46,952 (35.9%)
-  Internal: $55,681 (42.6%)
-  Zero:     $0 (0%)
+  Total:    $111,245 (was $130,800)
+  Client:   $24,020 (21.6%)
+  Presales: $37,955 (34.1%)
+  Internal: $49,270 (44.3%)
+
+Key correction: FTE costs now use actual compensation
+(FTE COMP.xlsx) not Manazer billing rates. Salaried
+methodology: paid for all 15 business days, not just
+Manazer-active days. Ghost cost now visible.
 ```
 
-*Analysis prepared under the Jon Gray CFO Persona. All data points sourced from the Verified Fact-Finding Report (Feb 20, 2026) with full project breakdowns from MCP refresh. Project tagging 100% — zero unclassified activities. Corrected Feb 20: Animesh (animesh@realfast.ai) is the FTE; Das Animesh (das.animesh@realfast.ai) is a contractor — original analysis had these identities swapped.*
+*Original analysis Feb 20, 2026. Corrected Feb 22 with actual FTE compensation data. All data points sourced from Verified Fact-Finding Report with full project breakdowns from MCP refresh. Project tagging 100% — zero unclassified activities. Corrections: (1) Animesh/Das Animesh identity swap fixed Feb 20, (2) Billing rate vs actual cost corrected Feb 22, (3) Sidu excluded as CEO, Kaathyayani removed as departed Feb 22.*
