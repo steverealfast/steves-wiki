@@ -75,30 +75,27 @@ Set the frame:
 
 ---
 
-### Module 2 — Map the Week (10–12 min)
+### Module 2 — Map the Overhead (10–12 min)
 
-Walk through a typical week. Focus on **task-level granularity**, not categories.
+We already know where his alpha is — deal evaluation, founder relationships, pattern recognition. **Don't map those.** Instead, map everything *around* the alpha work that drains time but doesn't drive returns.
 
-**Primary buckets** (reweighted for principal role):
+**Focus areas** (the boring stuff):
 
-1. **Deal flow** — sourcing, inbound triage, first meetings, follow-ups
-2. **Diligence & IC prep** — research, memo writing, IC presentations
-3. **Portfolio support** — monitoring companies, helping founders, updates
-4. **Internal firm operations** — reporting, alignment, admin
-5. **Market intelligence** — thesis development, sector research
-
-**NOTE**: LP/fundraising is likely NOT his responsibility. Don't ask unless he raises it.
+1. **Reporting & internal updates** — weekly pipeline updates, partner summaries, deal status reports
+2. **Data entry & tool maintenance** — CRM logging, deal tracker updates, tagging, filing notes
+3. **Information retrieval** — re-reading threads for context, hunting across Slack/email/WhatsApp/Notion for deal details
+4. **Post-meeting admin** — writing up notes, sending follow-ups, logging outcomes
+5. **Pre-meeting prep** — Googling founders, pulling company context, checking prior interactions
+6. **Document admin** — expense reports, travel logistics, NDAs, compliance paperwork
+7. **Portfolio housekeeping** — reading company updates, extracting KPIs, consolidating data
 
 For each area, probe:
-- "How many hours per week does this take?"
-- "What's the output?"
-- "What part requires your judgment specifically?"
-- "What part is repetitive — same process, different data?"
+- "How often does this happen — daily, weekly?"
+- "How long does it take each time?"
+- "Is it the same process every time, just different data?"
+- "What happens if you skip it or do it late?"
 
-**Separate**:
-- **Alpha work** — judgment, relationships, pattern recognition (keep this with him)
-- **Process overhead** — structured, repetitive, could be systematized
-- **Context switching drag** — re-reading threads, hunting for information, switching tools
+**What we're building**: A map of his repetitive operational overhead — the tasks that are structured, frequent, and low-risk. These are our POC targets.
 
 ---
 
