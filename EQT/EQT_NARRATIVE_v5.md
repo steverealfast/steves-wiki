@@ -1,3 +1,4 @@
+
 # realfast — EQT Narrative
 
 *v5 — February 2026. Internal strategy guide.*
