@@ -1,10 +1,8 @@
 # The CIO Dilemma: The Bottleneck Nobody Talks About
 
-**Essay 1 of 2 | Draft**
-
 ---
 
-## S - Everyone Agrees. That's the Problem.
+## Everyone Agrees. That's the Problem.
 
 Every enterprise board in the world is asking the same question: what's our AI strategy? The CEO is under pressure to show transformation. The PE fund wants AI on the value creation plan yesterday. Competitors are making announcements - most of them vapour.
 
@@ -22,7 +20,7 @@ That question just changed. And nobody handed out a new playbook.
 
 ---
 
-## C1 - The Real Friction Is Not at the Top
+## The Real Friction Is Not at the Top
 
 McKinsey, helpful as ever, surveyed 632 technology leaders on what's holding them back. They got the answers the room always gives. Nearly a third cite AI talent as a top challenge. AI budgets grow while operating metrics stay flat. The instinct is to blame the usual suspects.
 
@@ -36,7 +34,7 @@ That's the bottleneck. Not the technology. Not the strategy. Not the talent. The
 
 ---
 
-## C2 - The Decision That Disappeared
+## The Decision That Disappeared
 
 For thirty years, the CIO's central decision was clear: _what do we buy?_
 
@@ -56,13 +54,13 @@ The CIO's decision didn't evolve. It disappeared. "What do we buy?" is no longer
 
 The role was defined by a world that no longer exists. That's not a commentary on anyone's competence. It's a structural fact. And pretending otherwise is how enterprises burn through AI budgets without moving a single operating metric.
 
-Which raises a question nobody in the enterprise seems willing to ask out loud: if the CIO's role was defined by a decision that no longer exists - what is the CIO's role now? <!-- NOTE: this question is deliberately left unanswered. The essay unmasks what the role was. It does not prescribe what it should become. The discomfort is the point. -->
+Which raises a question nobody in the enterprise seems willing to ask out loud: if the CIO's role was defined by a decision that no longer exists - what is the CIO's role now?
 
 And while the enterprise sits with that question, the apparatus that served the old answer is still running. Still billing. Still optimising for a decision that no longer exists.
 
 ---
 
-## C3 - The Apparatus Resists Velocity
+## The Apparatus Resists Velocity
 
 Infosys launched Topaz. Accenture reorganised around Reinvention Services. Wipro committed a billion dollars. Cognizant launched Neuro AI. Every major SI staked its claim. The capital was flowing. The playbooks were ready.
 
@@ -92,9 +90,9 @@ So the CIO does what the apparatus allows. They buy a point solution.
 
 ---
 
-## C4 - The Point Solution Trap
+## The Point Solution Trap
 
-The procurement engine evaluates, negotiates, acquires. Four AI vendor contracts in twelve months. Each vendor promises transformation. Each tool optimises one function. The CIO does what they've always done.
+Four AI vendor contracts in twelve months. The CIO does what they've always done.
 
 And it feels like progress.
 
@@ -116,7 +114,7 @@ The point solution trap isn't a mistake. It's the inevitable output of a procure
 
 ---
 
-## C5 - The Data Tells You Who Already Figured This Out
+## The Data Tells You Who Already Figured This Out
 
 McKinsey's own data tells the story they buried in the executive summary.
 
@@ -130,7 +128,7 @@ McKinsey calls this a "maturity gap." More honest framing: the decision changed,
 
 Now look at what the 18% are actually doing. They're not buying AI differently. They're changing _how execution happens_ - insourcing capability that used to sit with SIs, compressing twelve-month roadmaps into weeks-to-production cycles, rewiring operating models around velocity instead of vendor management. They figured out that the apparatus was the problem - and they built around it while everyone else was still running the old playbook and wondering why the metrics didn't move.
 
-The gap between these two groups isn't closing. It's compounding. Every quarter the top performers operate with a rewired execution layer, their context deepens - they understand where the real friction sits, they've built the diagnostic capability the old ecosystem never had, they've compressed the cycle from insight to delivered outcome. Every quarter the 82% spend through the old apparatus, the distance grows - not because they're spending less, but because they're spending _through the wrong system_.
+The gap between these two groups isn't closing. It's compounding. Every quarter the top performers operate with a rewired execution layer, their context deepens. They understand where the real friction sits. They've built the diagnostic capability the old ecosystem never had. They've compressed the cycle from insight to delivered outcome. Every quarter the 82% spend through the old apparatus, the distance grows - not because they're spending less, but because they're spending _through the wrong system_.
 
 Capital markets are already pricing it. Eight quarters of consensus estimates for the major IT services firms have been trimmed by 2-3% each time. TCS cut 11,000 employees. HCL's headcount is flat. The market isn't panicking. It's structurally repricing an entire delivery model - doing the arithmetic the enterprise hasn't done yet.
 
@@ -140,7 +138,7 @@ The question isn't whether the old ecosystem survives. It's whether anyone will 
 
 ---
 
-## R - The Old Ecosystem Is Done
+## The Old Ecosystem Is Done
 
 The CIO dilemma isn't a performance problem. It isn't a training problem. It isn't solved by hiring an AI strategy consultant or standing up a centre of excellence or running a two-day workshop for the leadership team.
 
