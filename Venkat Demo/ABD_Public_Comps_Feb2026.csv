@@ -1,0 +1,64 @@
+Public Comparable Companies Analysis - Allied Blenders & Distillers (ABDL)
+As of February 25 2026 Close | Consolidated Basis | All Indian figures in INR Crores | Global figures in USD Millions
+
+SECTION 1: VALUATION SUMMARY
+Company,Ticker,Peer Group,Stock Price,Currency,Market Cap,Enterprise Value,EV/Revenue,EV/EBITDA,P/E,EBITDA Margin,ROE,ROCE
+Allied Blenders & Distillers,ABDL,Subject,490,INR,13621,14520,3.8x,28.5x,50.8x,13.3%,20.0%,21.1%
+United Spirits (Diageo India),UNITDSPR,Indian Peer,1387,INR,100876,98592,7.6x,41.9x,57.4x,18.2%,19.7%,26.5%
+Radico Khaitan,RADICO,Indian Peer,2697,INR,36107,36677,6.3x,39.2x,68.2x,16.0%,13.3%,16.0%
+Tilaknagar Industries,TI,Indian Peer,451,INR,11147,10072,5.4x,29.8x,39.4x,18.0%,29.6%,28.2%
+Globus Spirits,GLOBUSSPR,Indian Peer,904,INR,2619,2977,1.1x,13.7x,32.9x,8.0%,2.5%,5.8%
+Indian Peer Mean,,Indian Stats,,,,,,5.1x,31.1x,49.5x,15.1%,16.3%,19.1%
+Indian Peer Median,,Indian Stats,,,,,,5.8x,34.5x,48.4x,17.1%,16.5%,21.3%
+Diageo,DEO,Global Peer,118,GBP,55800,78300,3.8x,11.7x,21.4x,32.1%,19.7%,11.8%
+Pernod Ricard,RI.PA,Global Peer,77.5,EUR,20500,32400,3.2x,10.6x,13.8x,28.8%,,
+Brown-Forman,BF.B,Global Peer,29.2,USD,13500,16500,4.2x,13.6x,17.2x,31.1%,,
+Campari,CPR.MI,Global Peer,6.5,EUR,8900,10400,3.1x,15.4x,36.9x,20.0%,,
+Global Peer Mean,,Global Stats,,,,,,3.6x,12.8x,22.3x,28.0%,,
+Global Peer Median,,Global Stats,,,,,,3.5x,12.7x,19.3x,30.0%,,
+
+SECTION 2: INCOME STATEMENT (TTM)
+Company,Ticker,Revenue TTM,EBITDA TTM,Net Income TTM,EBITDA Margin,Net Margin,Currency
+Allied Blenders & Distillers,ABDL,3837,509,261,13.3%,6.8%,INR Cr
+United Spirits,UNITDSPR,12919,2355,1720,18.2%,13.3%,INR Cr
+Radico Khaitan,RADICO,5851,936,517,16.0%,8.8%,INR Cr
+Tilaknagar Industries,TI,1877,338,113,18.0%,6.0%,INR Cr
+Globus Spirits,GLOBUSSPR,2730,218,80,8.0%,2.9%,INR Cr
+Diageo,DEO,19800,6359,2410,32.1%,12.2%,USD M
+Pernod Ricard,RI.PA,10500,3024,1480,28.8%,14.1%,USD M
+Brown-Forman,BF.B,3890,1210,810,31.1%,20.8%,USD M
+Campari,CPR.MI,3400,680,241,20.0%,7.1%,USD M
+
+SECTION 3: EV BRIDGE - CONSOLIDATED (Indian Peers - INR Crores)
+Company,Ticker,Market Cap,Total Debt,Current Portion LT Debt,Long-term Debt,Other ST Borrowings,Cash & Equivalents,ST Investments,Minority Interest,Enterprise Value,Net Debt,Net Debt / EBITDA
+Allied Blenders & Distillers,ABDL,13621,1056,855,195,6,157,0,0,14520,899,1.8x
+United Spirits,UNITDSPR,100876,412,0,0,412,1381,1319,4,98592,-2288,NM (net cash)
+Radico Khaitan,RADICO,36107,624,419,61,144,54,0,0,36677,570,0.6x
+Tilaknagar Industries,TI,11147,49,42,5,2,1124,0,0,10072,-1075,NM (net cash)
+Globus Spirits,GLOBUSSPR,2619,467,251,201,15,107,0,-2,2977,360,1.7x
+
+SECTION 4: EV BRIDGE - GLOBAL PEERS (USD Millions)
+Company,Ticker,Market Cap,Net Debt (Reported),Source,Enterprise Value,Net Debt / EBITDA
+Diageo,DEO,55800,21900,FY25 Annual Report,78300,3.4x
+Pernod Ricard,RI.PA,20500,11200,FY25 Annual Report,32400,3.7x
+Brown-Forman,BF.B,13500,3000,Estimated,16500,2.5x
+Campari,CPR.MI,8900,1500,Estimated,10400,2.2x
+
+SECTION 5: IMPLIED VALUATION RANGE FOR ABDL
+Methodology,Multiple Applied,Metric Base (INR Cr),Implied EV (INR Cr),Less Net Debt (INR Cr),Implied Equity (INR Cr),Implied Price/Share (INR)
+Indian Median EV/Revenue,5.8x,3837,22255,899,21356,764
+Indian Median EV/EBITDA,34.5x,509,17561,899,16662,596
+Indian Median P/E,48.4x,261,n/a,n/a,12632,452
+Global Median EV/Revenue,3.5x,3837,13430,899,12531,448
+Global Median EV/EBITDA,12.7x,509,6464,899,5565,199
+
+NOTES
+Note,Detail
+Data Date,February 25 2026 market close
+Indian Data Basis,Consolidated quarterly filings (Dec 2025 quarter) via S&P Global
+Global Data Basis,Annual/interim filings; Brown-Forman and Campari debt figures estimated
+ABDL Shares Outstanding,~27.96 Crore shares (Face Value INR 2)
+Tilaknagar Note,Net cash position post equity raise (shares 194M to 226M) for Imperial Blue acquisition from Pernod Ricard
+Globus EBITDA,Estimated from Q3 FY26 margin of ~11% annualized; TTM margin ~8%
+Radico EBITDA,Estimated from reported 16% TTM EBITDA margin
+Exchange Rate,1 USD = approx INR 84
